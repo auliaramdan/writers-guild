@@ -20,7 +20,7 @@ const DEFAULT_BASE_URL = 'http://localhost:1234/v1';
 // the `Authorization` header to be present.
 const PLACEHOLDER_TOKEN = 'no-key';
 
-export class OpenAICompatibleProvider extends OpenAIProvider {
+export class GeminiProvider extends OpenAIProvider {
   constructor(config) {
     // Hand the parent a populated apiKey so all its Bearer-Authorization code
     // paths "just work" without overriding every request method. The user-set
